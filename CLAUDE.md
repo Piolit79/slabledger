@@ -4,10 +4,10 @@
 Construction project management web app replacing Excel. Tracks projects, budgets, contracts, payments (5 categories), draws, and shared vendor/sub directory across all projects. 4 user roles: Admin, Bookkeeper, Employee, Client.
 
 ## Live URL
-https://slab-ledger.vercel.app (set after Vercel deploy)
+https://slabledger.vercel.app (confirm exact URL)
 
 ## GitHub
-https://github.com/Piolit79/slab-ledger (create this repo)
+https://github.com/Piolit79/slabledger
 
 ## Tech Stack
 - **Frontend**: React 18 + TypeScript + Vite + Tailwind CSS v3 + shadcn/ui
@@ -68,7 +68,13 @@ https://github.com/Piolit79/slab-ledger (create this repo)
 - Supabase migration SQL with 7 tables + RLS policies
 - ASD Backyard Excel import script (scripts/import-asd-backyard.ts)
 - Build passes: `npm run build` ✓
-- Initial commit made — ready to push to GitHub
+- Pushed to GitHub: https://github.com/Piolit79/slabledger
+- Supabase project: https://nlusfndskgdcottasfdy.supabase.co
+- Migration SQL run in Supabase SQL editor ✓
+- Admin user created: mhm@slabbuilders.com / SlabLedger2026!
+- Deployed to Vercel with env vars ✓
+- **Issue reported**: App doesn't match Excel workflow — needs sub-level breakdown on dashboard, entry flow needs rework
+- **Next**: Review Excel structure vs current UI, redesign dashboard to show per-sub contract/paid/balance, fix entry workflow
 
 ## Setup Instructions (First Time)
 1. Create Supabase project at supabase.com
